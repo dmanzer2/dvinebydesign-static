@@ -1,7 +1,7 @@
 ---
-layout: main-template
 title: About
-permalink: /about/
+permalink: "/about/"
+layout: main-template
 comments: false
 ---
 

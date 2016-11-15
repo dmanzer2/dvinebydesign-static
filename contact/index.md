@@ -1,7 +1,7 @@
 ---
-layout: main-template
 title: Contact
-permalink: /contact/
+permalink: "/contact/"
+layout: main-template
 comments: false
 ---
 
