@@ -1,4 +1,216 @@
-<!-- Fixed navbar -->
+<!--Header-->
+<header data-offset-top="500" data-stuck="600"><!--data-offset-top is when header converts to small variant and data-stuck when it becomes visible. Values in px represent position of scroll from top. Make sure there is at least 100px between those two values for smooth animation-->
+
+  <!--Search Form-->
+  <form class="search-form closed" method="get" role="form" autocomplete="off">
+    <div class="container">
+      <div class="close-search"><i class="icon-delete"></i></div>
+        <div class="form-group">
+          <label class="sr-only" for="search-hd">Search for procuct</label>
+          <input type="text" class="form-control" name="search-hd" id="search-hd" placeholder="Search for procuct">
+          <button type="submit"><i class="icon-magnifier"></i></button>
+      </div>
+    </div>
+  </form>
+
+  <!--Split Background-->
+  <div class="left-bg"></div>
+  <div class="right-bg"></div>
+
+  <div class="container">
+    <a class="logo" href="index.html"><img src="../assets/img/logo.png" alt="dvine"/></a>
+
+    <!--Mobile Menu Toggle-->
+    <div class="menu-toggle"><i class="fa fa-list"></i></div>
+    <div class="mobile-border"><span></span></div>
+
+    <!--Main Menu-->
+    <nav class="menu">
+      <ul class="main">
+        <li class="hide-sm"><a href="#">About</a></li>
+        <li class="has-submenu"><a href="shop-filters-left-3cols.html">Pricing<i class="fa fa-chevron-down"></i></a>
+          <ul class="submenu">
+              <li><a href="#">Canvas</a></li>
+              <li><a href="#">Plexiglass</a></li>
+            </ul>
+        </li>
+        <li class="hide-sm"><a href="#">Tracking</a></li>
+        <li class="hide-sm"><a href="support.html">Contact</a></li>
+      </ul>
+      <ul class="catalog">
+    <li class="has-submenu"><span class="label" style="right:10px; top:-5px;">NEW</span><a href="shop-filters-left-3cols.html">All Custom Artwork<i class="fa fa-chevron-down"></i></a>
+          <ul class="submenu">
+
+    <li><a href="#">Autos</a></li>
+    <li><a href="#">Creative</a></li>
+    <li><a href="#">Creatures</a></li>
+    <li><a href="#">Figures</a></li>
+    <li><a href="#">Flowers</a></li>
+    <li><a href="#">Landscapes</a></li>
+    <li><a href="#">Lights</a></li>
+
+            <li class="offer">
+              <div class="col-1">
+                <p class="p-style2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              </div>
+              <div class="col-2">
+                <img src="../assets/img/offers/menu-drodown-offer.jpg" alt="Special Offer"/>
+                <a class="btn btn-block" href="#"><span>584$</span>Special offer</a>
+              </div>
+            </li>
+          </ul>
+        </li>
+        <li class="has-submenu"><a href="shop-filters-left-3cols.html">Canvas Art<i class="fa fa-chevron-down"></i></a>
+          <ul class="submenu">
+
+            <li class="has-submenu"><a href="#">Gallery Wrap</a><!--Class "has-submenu" for adding carret and dropdown-->
+              <ul class="sub-submenu">
+                <li><a href="#">0.75" Thin Frame</a></li>
+                <li><a href="#">1.5" Thick Frame</a></li>
+              </ul>
+            </li>
+    <li><a href="#">Texture</a></li>
+            <li class="has-submenu"><a href="#">Add a Floating Frame</a>
+              <ul class="sub-submenu">
+                <li><a href="#">Black</a></li>
+                <li><a href="#">Maple</a></li>
+                <li><a href="#">Walnut</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Your Photo on Canvas</a></li>
+    <li><a href="#">Canvas only</a></li>
+    <li class="has-submenu"><a href="#">Canvas Tripps - 3 panel</a>
+              <ul class="sub-submenu">
+      <p>Sizes for each panel</p>
+                <li><a href="#">12x24</a></li>
+                <li><a href="#">15x30</a></li>
+                <li><a href="#">18x36</a></li>
+      <li><a href="#">20x40</a></li>
+      <li><a href="#">24x48</a></li>
+              </ul>
+            </li>
+    <li class="has-submenu"><a href="#">Canvas Quads - 4 panel</a>
+              <ul class="sub-submenu">
+      <p>Sizes for each panel</p>
+                <li><a href="#">18x18</a></li>
+                <li><a href="#">15x30</a></li>
+                <li><a href="#">16x24</a></li>
+      <li><a href="#">24x24</a></li>
+      <li><a href="#">30x30</a></li>
+      <li><a href="#">24x36</a></li>
+              </ul>
+            </li>
+            <li class="offer">
+              <div class="col-1">
+                <p class="p-style2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              </div>
+              <div class="col-2">
+                <img src="../assets/img/offers/menu-drodown-offer.jpg" alt="Special Offer"/>
+                <a class="btn btn-block" href="#"><span>584$</span>Special offer</a>
+              </div>
+            </li>
+          </ul>
+        </li>
+  <li class="has-submenu"><a href="shop-filters-left-3cols.html">Plexi Art<i class="fa fa-chevron-down"></i></a>
+          <ul class="submenu">
+            <li><a href="#">Flame Polished Edges</a></li>
+            <li class="has-submenu"><a href="#">Bolts</a><!--Class "has-submenu" for adding carret and dropdown-->
+              <ul class="sub-submenu">
+                <li><a href="#">Satin Silver</a></li>
+                <li><a href="#">Chrome</a></li>
+              </ul>
+            </li>
+            <li><a href="#">2 inch clear borders</a></li>
+    <li><a href="#">Installation</a></li>
+    <li><a href="#">French Cleats (no bolts)</a></li>
+    <li class="has-submenu"><a href="#">Plexi Tripps - 3 panel</a>
+              <ul class="sub-submenu">
+      <p>Sizes for each panel</p>
+                <li><a href="#">12x24</a></li>
+                <li><a href="#">15x30</a></li>
+                <li><a href="#">18x36</a></li>
+      <li><a href="#">20x40</a></li>
+      <li><a href="#">24x48</a></li>
+              </ul>
+            </li>
+    <li class="has-submenu"><a href="#">Plexi Quads - 4 panel</a>
+              <ul class="sub-submenu">
+      <p>Sizes for each panel</p>
+                <li><a href="#">18x18</a></li>
+                <li><a href="#">15x30</a></li>
+                <li><a href="#">16x24</a></li>
+      <li><a href="#">24x24</a></li>
+      <li><a href="#">30x30</a></li>
+      <li><a href="#">24x36</a></li>
+              </ul>
+            </li>
+            <li class="offer">
+              <div class="col-1">
+                <p class="p-style2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              </div>
+              <div class="col-2">
+                <img src="../assets/img/offers/menu-drodown-offer.jpg" alt="Special Offer"/>
+                <a class="btn btn-block" href="#"><span>584$</span>Special offer</a>
+              </div>
+            </li>
+          </ul>
+        </li>
+        <li><a href="shop-filters-left-3cols.html">Your Photos</a></li>
+      </ul>
+    </nav>
+
+    <!--Toolbar-->
+    <div class="toolbar group">
+      <button class="search-btn btn-outlined-invert"><i class="icon-magnifier"></i></button>
+      <div class="middle-btns">
+        <a class="btn-outlined-invert" href="wishlist.html"><i class="icon-heart"></i> <span>Wishlist</span></a>
+        <a class="login-btn btn-outlined-invert" href="#" data-toggle="modal" data-target="#loginModal"><i class="icon-profile"></i> <span>Login</span></a>
+      </div>
+      <div class="cart-btn">
+        <a class="btn btn-outlined-invert" href="shopping-cart.html"><i class="icon-shopping-cart-content"></i><span>3</span></a>
+
+        <!--Cart Dropdown-->
+        <div class="cart-dropdown">
+          <span></span><!--Small rectangle to overlap Cart button-->
+          <div class="body">
+            <table>
+              <tr>
+                <th>Items</th>
+                <th>Quantity</th>
+                <th>Price</th>
+              </tr>
+              <tr class="item">
+                <td><div class="delete"></div><a href="#">Good Joo-Joo Surfb</a></td>
+                <td><input type="text" value="1"></td>
+                <td class="price">89 005 $</td>
+              </tr>
+              <tr class="item">
+                <td><div class="delete"></div><a href="#">Good Joo-Joo Item</a></td>
+                <td><input type="text" value="2"></td>
+                <td class="price">4 300 $</td>
+              </tr>
+              <tr class="item">
+                <td><div class="delete"></div><a href="#">Good Joo-Joo</a></td>
+                <td><input type="text" value="5"></td>
+                <td class="price">84 $</td>
+              </tr>
+            </table>
+          </div>
+          <div class="footer group">
+            <div class="buttons">
+              <a class="btn btn-outlined-invert" href="checkout.html"><i class="icon-download"></i>Checkout</a>
+              <a class="btn btn-outlined-invert" href="shopping-cart.html"><i class="icon-shopping-cart-content"></i>To cart</a>
+            </div>
+            <div class="total">93 389 $</div>
+          </div>
+        </div><!--Cart Dropdown Close-->
+      </div>
+    </div><!--Toolbar Close-->
+  </div>
+</header><!--Header Close-->
+
+
+<!--
 <nav class="navbar navbar-default navbar-fixed-top">
   <div class="container">
     <div class="navbar-header">
@@ -21,6 +233,6 @@
         {% endfor %}
       </ul>
     </div>
-    <!--/.nav-collapse -->
+    /.nav-collapse
   </div>
-</nav>
+</nav> -->
