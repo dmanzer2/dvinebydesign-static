@@ -13,7 +13,7 @@ enforce_ssl: ""
 baseurl: ""
 
 # Title of website
-title: dvinebydesign
+title: d'vine by Design - Custom Artwork
 
 # description
 description: > # this means to ignore newlines until "baseurl:"
@@ -52,7 +52,7 @@ profile:
   stackoverflow: dmanzer2
 
 # To display link in the footer section
-pretty-url: ""
+pretty-url: "dvinebydesign.com"
 
 # --- Misc --- #
 
@@ -80,7 +80,7 @@ sass:
   # see http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
   # on a typical twitter bootstrap stats are :
   # nested 138,7kB, compact 129,1kB, expanded 135,9 kB, compressed 122,4 kB
-  style: compressed
+  style: expanded
 
 # Default YAML values (more information on Jekyll's site)
 defaults:
