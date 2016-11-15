@@ -1,7 +1,7 @@
 ---
 layout: main-template
-title: About me
-permalink: /aboutme/
+title: About
+permalink: /about/
 comments: false
 ---
 

@@ -8,12 +8,18 @@ gems:
 # If you are hosting it on Github for some project with name 'projectname', then the url and baseurl should look like:
 #url: "http://username.github.io/projectname"
 #baseurl: "/projectname"
-url: ""
+url: "http://www.dvinebydesign.com"
 enforce_ssl: ""
-baseurl: "/dvinebydesign"
+baseurl: ""
 
 # Title of website
 title: dvinebydesign
+
+# description
+description: > # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
 
 #Default keywords (used if no keywords are specified on a page basis)
 keywords: test1, test2, etc
@@ -30,20 +36,20 @@ avatar: ""
 # List of links in the navigation bar
 nav-links:
   Home: ""
-  About Me: "aboutme"
+  About: "about"
   Contact: "contact"
 
 # --- Footer options --- #
 
 # If the values are empty, they are ignored
 profile:
-  name:
-  email: Your-Email
+  name: David Manzer
+  email: dmanzer2@gmail.com
   facebook: your-fb-id
-  github: your-github-id
+  github: dmanzer2
   twitter: your-twitter-id
   linkedin: your-linkedin-id
-  stackoverflow: your-stackoverflow-id
+  stackoverflow: dmanzer2
 
 # To display link in the footer section
 pretty-url: ""
@@ -57,7 +63,7 @@ disqus: "Your-Disqus-Id"
 google_analytics: "Your-GA-Id"
 
 # Set these options as you need (For more information, check Jekyll's site)
-timezone: "Arizona"
+timezone: "US/Arizona"
 markdown: kramdown
 #highlighter: rouge
 kramdown:
@@ -69,7 +75,6 @@ sass:
   # loading path from site root
   # default to _sass
   sass_dir: bower_components/bootstrap-sass/assets/stylesheets
-
   # style : nested (default), compact, compressed, expanded
   #         :nested, :compact, :compressed, :expanded also works
   # see http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style

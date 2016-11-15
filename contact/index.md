@@ -1,5 +1,7 @@
 ---
 layout: main-template
+title: Contact
+permalink: /contact/
 comments: false
 ---
 
