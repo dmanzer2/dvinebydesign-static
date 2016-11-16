@@ -27,6 +27,12 @@
     <!--Main Menu-->
     <nav class="menu">
       <ul class="main">
+        {% for link in site.nav-links %}
+        <li class="hide-sm">
+          <a href="{{ site.baseurl }}/{{ link[1] }}">{{ link[0] }}</a>
+        </li>
+        {% endfor %}
+
         <li class="hide-sm"><a href="#">About</a></li>
         <li class="has-submenu"><a href="shop-filters-left-3cols.html">Pricing<i class="fa fa-chevron-down"></i></a>
           <ul class="submenu">
