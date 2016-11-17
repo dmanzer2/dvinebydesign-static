@@ -1,5 +1,5 @@
 # Build settings
- -# Gems
+# Gems
 gems:
 - jekyll-feed
 
@@ -13,7 +13,7 @@ enforce_ssl: ""
 baseurl: ""
 
 # Title of website
-title: d'vine by Design - Custom Artwork
+title: dvinebydesign
 
 # description
 description: > # this means to ignore newlines until "baseurl:"
@@ -80,27 +80,17 @@ sass:
   # see http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
   # on a typical twitter bootstrap stats are :
   # nested 138,7kB, compact 129,1kB, expanded 135,9 kB, compressed 122,4 kB
-  style: expanded
+  style: compressed
 
 # Default YAML values (more information on Jekyll's site)
- +---
-title: dvinebydesign
-timezone: UTC
-collections:
-  posts:
-    title: Posts
-    output: true
-  uploads:
-    title: Uploads
-    output: true
-  defaults:
-    -
+defaults:
+  -
     scope:
       path: ""
       type: "posts"
     values:
       comments: true  # add comments to all blog posts
-    -
+  -
     scope:
       path: "" # all files
     values:
@@ -116,16 +106,4 @@ exclude:
   - CNAME
 
 created-by:
-  - creator-url:
-   - scope:
-     path: ''
-     type: posts
-   values:
-     layout: post
-     permalink: "/posts/:title/"
-     - scope:
-    path: ''
-    type: pages
-  values:
-    layout: page
-permalink: pretty
+creator-url:
