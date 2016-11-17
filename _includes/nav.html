@@ -26,22 +26,20 @@
 
     <!--Main Menu-->
     <nav class="menu">
-      <ul class="main">
-        {% for link in site.nav-links %}
-        <li class="hide-sm">
-          <a href="{{ site.baseurl }}/{{ link[1] }}">{{ link[0] }}</a>
-        </li>
-        {% endfor %}
 
+      <ul class="main">
         <li class="hide-sm"><a href="#">About</a></li>
+
         <li class="has-submenu"><a href="shop-filters-left-3cols.html">Pricing<i class="fa fa-chevron-down"></i></a>
           <ul class="submenu">
             <li><a href="#">Canvas</a></li>
             <li><a href="#">Plexiglass</a></li>
           </ul>
         </li>
+
         <li class="hide-sm"><a href="#">Tracking</a></li>
         <li class="hide-sm"><a href="support.html">Contact</a></li>
+        
       </ul>
 
       <ul class="catalog">
