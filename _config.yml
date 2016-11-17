@@ -35,8 +35,12 @@ avatar: ""
 
 # List of links in the navigation bar
 nav-links:
-  Home: ""
+  Home: "/"
   About: "about"
+  Pricing: "pricing"
+  Canvas: "Canvas"
+  Plexiglass: "Plexiglass"
+  Tracking: "tracking"
   Contact: "contact"
 
 # --- Footer options --- #
@@ -46,7 +50,7 @@ profile:
   name: David Manzer
   email: dmanzer2@gmail.com
   facebook: your-fb-id
-  github: dmanzer2
+  github: https://github.com/dmanzer2
   twitter: your-twitter-id
   linkedin: your-linkedin-id
   stackoverflow: dmanzer2
@@ -105,5 +109,5 @@ exclude:
   - README.md
   - CNAME
 
-created-by:
-creator-url:
+created-by: David Manzer
+creator-url: www.davidmanzer.info

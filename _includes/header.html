@@ -1,0 +1,65 @@
+<!--Header-->
+<header data-offset-top="500" data-stuck="600"><!--data-offset-top is when header converts to small variant and data-stuck when it becomes visible. Values in px represent position of scroll from top. Make sure there is at least 100px between those two values for smooth animation-->
+
+  <!-- search bar -->
+  {% include search-form.html %}
+
+  <!--Split Background-->
+  <div class="left-bg"></div>
+  <div class="right-bg"></div>
+
+  <div class="container">
+    <a class="logo" href="{{ site.url }}"><img src="../assets/img/logo.png" alt="dvine"/></a>
+
+    <!--Mobile Menu Toggle-->
+    <div class="menu-toggle"><i class="fa fa-list"></i></div>
+    <div class="mobile-border"><span></span></div>
+
+    <!-- main navigation -->
+    {% include nav.html %}
+
+    <!--Toolbar-->
+    <div class="toolbar group">
+      <button class="search-btn btn-outlined-invert"><i class="icon-magnifier"></i></button>
+      <div class="middle-btns">
+        <a class="btn-outlined-invert" href="wishlist.html"><i class="icon-heart"></i> <span>Wishlist</span></a>
+        <a class="login-btn btn-outlined-invert" href="#" data-toggle="modal" data-target="#loginModal"><i class="icon-profile"></i> <span>Login</span></a>
+      </div>
+      <div class="cart-btn">
+        <a class="btn btn-outlined-invert" href="shopping-cart.html"><i class="icon-shopping-cart-content"></i><span>3</span></a>
+
+        {% include cart-dropdown.html %}
+
+      </div>
+    </div><!--Toolbar Close-->
+
+  </div>
+</header><!--Header Close-->
+
+
+<!--
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false"
+        aria-controls="navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="{{ site.url }}">{{ site.title }}</a>
+    </div>
+
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav navbar-right">
+        {% for link in site.nav-links %}
+        <li>
+          <a href="{{ site.baseurl }}/{{ link[1] }}">{{ link[0] }}</a>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+    /.nav-collapse
+  </div>
+</nav> -->
