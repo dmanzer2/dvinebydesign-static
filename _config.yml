@@ -36,8 +36,8 @@ nav-links:
   Home: "/"
   About: about
   Pricing: pricing
-  Canvas: Canvas
-  Plexiglass: Plexiglass
+  Canvas: canvas
+  Plexiglass: plexiglass
   Tracking: tracking
   Contact: contact
 profile:
