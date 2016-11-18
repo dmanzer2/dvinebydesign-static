@@ -1,15 +1,35 @@
 <!--Main Menu-->
 <nav class="menu">
   <ul class="main">
-    <li class="hide-sm"><a href="/about/">About</a></li>
+
+    {% assign navigation_pages = site.html_pages | sort: 'navigation_weight' %}
+
+    {% for p in navigation_pages %}
+      {% if p.navigation_weight %}
+
+        <li>
+          <a href="{{ p.url }}" {% if p.url == page.url %} class="active" {% endif %}>
+            {{ p.title }}
+          </a>
+        </li>
+
+      {% endif %}
+    {% endfor %}
+
+
+
+    <!-- <li class="hide-sm"><a href="/about/">About</a></li>
     <li class="has-submenu"><a href="shop-filters-left-3cols.html">Pricing<i class="fa fa-chevron-down"></i></a>
       <ul class="submenu">
         <li><a href="#">Canvas</a></li>
         <li><a href="#">Plexiglass</a></li>
       </ul>
     </li>
-    <!-- <li class="hide-sm"><a href="#">Tracking</a></li> -->
-    <li class="hide-sm"><a href="/contact/">Contact</a></li>
+    <li class="hide-sm"><a href="#">Tracking</a></li>
+    <li class="hide-sm"><a href="/contact/">Contact</a></li> -->
+
+
+
   </ul>
 
   <ul class="catalog">
