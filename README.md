@@ -1,4 +1,4 @@
 # dvinebydesign
 
-# command line
-# bundle exec jekyll serve
+command line
+bundle exec jekyll serve
