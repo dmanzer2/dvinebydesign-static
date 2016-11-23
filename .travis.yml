@@ -1,4 +1,1 @@
 sudo: required
-
-before_script:
-  - psql -c "CREATE USER dmanzer2 WITH PASSWORD 'dmanzer2';" -U postgres
