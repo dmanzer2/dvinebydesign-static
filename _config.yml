@@ -2,11 +2,11 @@
 title: dvinebydesign
 timezone: US/Arizona
 collections:
-  posts:
-    title: dvinebydesign Posts
-    output: true
   uploads:
     title: Uploads
+    output: true
+  posts:
+    title: dvinebydesign Posts
     output: true
 defaults:
 - scope:
