@@ -3,7 +3,7 @@ title: dvinebydesign
 timezone: US/Arizona
 collections:
   posts:
-    title: Posts
+    title: dvinebydesign Posts
     output: true
   uploads:
     title: Uploads
