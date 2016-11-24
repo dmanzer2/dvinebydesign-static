@@ -58,7 +58,8 @@ sass:
   sass_dir: bower_components/bootstrap-sass/assets/stylesheets
   style: compressed
 exclude:
-- vendor
-exclude: [node_modules, Gruntfile.js, package.json]
+- node_modules
+- Gruntfile.js
+- package.json
 created-by: David Manzer
 creator-url: http://www.davidmanzer.info
