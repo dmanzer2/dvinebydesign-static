@@ -59,5 +59,6 @@ sass:
   style: compressed
 exclude:
 - vendor
+exclude: [node_modules, Gruntfile.js, package.json]
 created-by: David Manzer
 creator-url: http://www.davidmanzer.info
