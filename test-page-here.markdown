@@ -3,7 +3,7 @@ title: Test page here
 date: 2016-11-28 14:14:00 -07:00
 show-avatar: false
 Field name: 
-layout: main-template
+layout: blank-page
 ---
 
 hello world! New page created here.
