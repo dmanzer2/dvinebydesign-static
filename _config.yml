@@ -21,7 +21,7 @@ defaults:
     show-avatar: true
 gems:
 - jekyll-feed
-url: ''
+url: '/'
 enforce_ssl: ''
 baseurl: ''
 description: Write an awesome description for your new site here. You can edit this
