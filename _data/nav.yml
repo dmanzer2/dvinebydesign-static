@@ -4,7 +4,7 @@
 - title: "Home"
   href: "/"
 
-- title: "Products"
+- title: "Pricing"
   subcategories:
     - subtitle: "Canvas"
       subhref: "/canvas/"

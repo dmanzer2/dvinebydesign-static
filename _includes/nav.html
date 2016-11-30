@@ -1,6 +1,8 @@
 <!--Main Menu-->
 <nav class="menu">
   <ul class="main">
+
+    <!-- Dynamic Navigation based on "_data/nav.yml" | Edit this ti change navigation -->
     {% for nav in site.data.nav %}
       {% if nav.subcategories != null %}
         <li class="has-submenu">
