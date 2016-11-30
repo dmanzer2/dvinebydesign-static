@@ -30,14 +30,6 @@ description: Write an awesome description for your new site here. You can edit t
 keywords: test1, test2, etc
 desc: sample description
 avatar: ''
-nav-links:
-  Home: "/"
-  About: about
-  Pricing: pricing
-  Canvas: canvas
-  Plexiglass: plexiglass
-  Tracking: tracking
-  Contact: contact
 profile:
   name: David Manzer
   email: dmanzer2@gmail.com
